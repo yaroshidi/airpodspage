@@ -1,8 +1,3 @@
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-
-// Your GSAP and ScrollTrigger related code goes here
 
 gsap.registerPlugin(ScrollTrigger);
 
