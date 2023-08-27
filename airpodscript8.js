@@ -1,6 +1,8 @@
 async function loadGSAP() {
   await import('https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js');
   await import('https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js');
+  
+  // Your GSAP and ScrollTrigger related code goes here
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -84,3 +86,7 @@ end: 'bottom bottom',
 scrub: 1,
 }
 });
+
+}
+loadGSAP();
+  
